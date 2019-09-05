@@ -1,8 +1,8 @@
+name: Build artifact, Create RELEASE page, and upload artifact to RELEASE page
 on:
   create:
     tags:
       - v*.*.*
-name: Build artifact, Create RELEASE page, and upload artifact to RELEASE page
 
 jobs:
   releaseArtifact:
